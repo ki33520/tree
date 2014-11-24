@@ -1,0 +1,18 @@
+{
+  "spm": {
+    "main": "./assets/js/main.js",
+    "dependencies": {
+      "seajs": "2.3.0",
+      "jquery": "1.11.1"
+    },
+    "output":[
+      "./assets/js/lib/sea.js",
+      "./assets/js/lib/jquery.min.js",
+      "./assets/js/src/config.js",
+      "./assets/js/src/module.js",
+      "./assets/js/src/basic.js",
+      "./assets/js/main.js",
+      "./assets/js/apps/index.js"
+    ]
+  }
+}

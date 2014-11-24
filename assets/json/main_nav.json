@@ -1,0 +1,75 @@
+{
+	"type": "menu",
+	"req": "index",
+	"data": [
+		{
+			"name": "Index",
+			"req": "index"
+		},
+		{
+			"name": "Core",
+			"sub":[
+				{
+					"name": "Part 1",
+					"sub":[
+						{
+							"name": ""
+						},
+						{
+							"name": ""
+						}
+					]
+				},
+				{
+					"name": "",
+					"sub":[
+						{
+							"name": ""
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "UI",
+			"sub":[
+				{
+					"name": "Slider",
+					"sub":[
+						{
+							"name": "Slider Basic",
+							"req": "slider_basic"
+						},
+						{
+							"name": "Staff",
+							"title": "Slider&Staff",
+							"req": "staff"
+						}
+					]
+				},
+				{
+					"name": "",
+					"sub":[
+						{
+							"name": ""
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "API",
+			"sub":[
+				{
+					"name": "Weibo",
+					"sub":[
+						{
+							"name": "API Weibo",
+							"req": "api_weibo"
+						}
+					]
+				}
+			]
+		}
+	]
+}
